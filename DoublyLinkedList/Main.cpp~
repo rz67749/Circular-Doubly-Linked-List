@@ -1,0 +1,83 @@
+#include <iostream>
+#include <fstream>
+#include "ItemType.h"
+#include "DoublyLinkedList.h"
+
+using namespace std;
+
+int main(int argc, char** argv)
+{
+  DoublyLinkedList list;
+  ItemType item;
+  int input;
+  fstream fs;
+  fs.open(argv[1], fstream::in);
+
+  if(fs.is_open())
+  {
+    fs >> input;
+    while(!fs.eof())
+    {
+      item.initialize(input);
+      list.insertItem(item);
+      fs >> input;
+    }//while
+  }//if
+  else {
+    cout << "Failed to open the input file" << endl;
+    return 0;
+  }//else
+
+  cout << "insert (i), delete (d), length (l), print (p), quit (q)" << "\n\t" << endl;
+
+  char userInput = ' ';
+  while(userInput != 'q')
+  {
+    cout << "Enter a command: ";
+    cin >> userInput;
+    cout << endl;
+    switch(userInput)
+    {
+    case 'i':
+        cout << "Number to insert: ";
+        cin >> input;
+        cout << endl;
+        item.initialize(input);
+        list.insertItem(item);
+        list.print();
+        break;
+
+    case 'd':
+        cout << "Number to delete: ";
+        cin >> input;
+        cout << endl;
+        item.initialize(input);
+        list.deleteItem(item);
+        list.print();
+        break;
+
+    case 'l':
+        cout << "Length: " << list.lengthIs() << endl;
+        cout << endl;
+      break;
+
+    case 'p':
+        list.print();
+        break;
+
+    case 'q':
+      cout << "Quitting program..." << endl;
+      cout << endl;
+      exit(EXIT_SUCCESS);
+      break;
+      
+    default:
+      cout << "Command not recognized. Try again." << endl;
+    }//switch
+    cout << endl;
+  }//while
+  
+  return 0;
+
+}//main
+

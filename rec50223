@@ -1,0 +1,39 @@
+Zacarias_Puhalovich_assignment3:
+total 12
+drwxr-xr-x 2 ugrad 4096 Oct 17 19:51 CircularLinkedList
+drwxr-xr-x 2 ugrad 4096 Oct 17 19:49 DoublyLinkedList
+-rw-r--r-- 1 ugrad  404 Oct 17 19:55 README.txt
+-rw-r--r-- 1 ugrad    0 Oct 17 19:57 rec50223
+
+Zacarias_Puhalovich_assignment3/CircularLinkedList:
+total 184
+-rw-r--r-- 1 ugrad  3756 Oct 17 19:41 CircularLinkedList.cpp
+-rw-r--r-- 1 ugrad  3690 Oct 17 16:15 CircularLinkedList.cpp~
+-rw-r--r-- 1 ugrad   387 Oct 17 09:19 CircularLinkedList.h
+-rw-r--r-- 1 ugrad 44816 Oct 17 19:51 CircularLinkedList.o
+-rw-r--r-- 1 ugrad    29 Oct 17 09:20 input.txt
+-rw-r--r-- 1 ugrad   523 Oct 17 09:23 ItemType.cpp
+-rw-r--r-- 1 ugrad   264 Oct 17 09:24 ItemType.h
+-rw-r--r-- 1 ugrad 38544 Oct 17 15:35 ItemType.o
+-rwxr-xr-x 1 ugrad 65417 Oct 17 19:51 main
+-rw-r--r-- 1 ugrad  1959 Oct 17 19:44 Main.cpp
+-rw-r--r-- 1 ugrad  1553 Oct 17 16:13 Main.cpp~
+-rw-r--r-- 1 ugrad   402 Oct 17 09:26 Makefile
+
+Zacarias_Puhalovich_assignment3/DoublyLinkedList:
+total 200
+-rw-r--r-- 1 ugrad  4798 Oct 17 19:46 DoublyLinkedList.cpp
+-rw-r--r-- 1 ugrad  4742 Oct 17 19:32 DoublyLinkedList.cpp~
+-rw-r--r-- 1 ugrad   469 Oct 17 10:39 DoublyLinkedList.h
+-rw-r--r-- 1 ugrad   473 Oct 17 10:12 DoublyLinkedList.h~
+-rw-r--r-- 1 ugrad 44984 Oct 17 19:49 DoublyLinkedList.o
+-rw-r--r-- 1 ugrad    28 Oct 17 09:39 input.txt
+-rw-r--r-- 1 ugrad   512 Oct 17 15:05 ItemType.cpp
+-rw-r--r-- 1 ugrad   450 Oct 17 10:09 ItemType.cpp~
+-rw-r--r-- 1 ugrad   278 Oct 17 10:13 ItemType.h
+-rw-r--r-- 1 ugrad 38536 Oct 17 15:07 ItemType.o
+-rwxr-xr-x 1 ugrad 65157 Oct 17 19:49 main
+-rw-r--r-- 1 ugrad  1942 Oct 17 19:48 Main.cpp
+-rw-r--r-- 1 ugrad  1564 Oct 17 16:19 Main.cpp~
+-rw-r--r-- 1 ugrad   390 Oct 17 09:37 Makefile
+/home/ugrads/zacarias/Zacarias_Puhalovich_assignment3:/home/work/cs2720a
